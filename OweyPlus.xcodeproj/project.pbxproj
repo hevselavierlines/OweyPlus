@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2123E9A61BFF3129000445D9 /* DebtController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2123E9A51BFF3129000445D9 /* DebtController.swift */; };
+		21C8D71C1BFF3E17000FACC3 /* PersonsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C8D71B1BFF3E17000FACC3 /* PersonsManager.swift */; };
+		21D83DD01C038A4800071A91 /* AddDebtController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D83DCF1C038A4800071A91 /* AddDebtController.swift */; };
+		21DC51A81BF20AC7004221AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DC51A71BF20AC7004221AC /* AppDelegate.swift */; };
+		21DC51AA1BF20AC7004221AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DC51A91BF20AC7004221AC /* ViewController.swift */; };
+		21DC51AD1BF20AC7004221AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21DC51AB1BF20AC7004221AC /* Main.storyboard */; };
+		21DC51B21BF20AC7004221AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21DC51B11BF20AC7004221AC /* Assets.xcassets */; };
+		21DC51B51BF20AC7004221AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21DC51B31BF20AC7004221AC /* LaunchScreen.storyboard */; };
+		21DC51C01BF20AC7004221AC /* OweyPlusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DC51BF1BF20AC7004221AC /* OweyPlusTests.swift */; };
+		21DC51CB1BF20AC7004221AC /* OweyPlusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DC51CA1BF20AC7004221AC /* OweyPlusUITests.swift */; };
+		21DC51D91BF20DB4004221AC /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DC51D81BF20DB4004221AC /* Person.swift */; };
+		21DC51DB1BF20DF2004221AC /* Debt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DC51DA1BF20DF2004221AC /* Debt.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21DC51BC1BF20AC7004221AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21DC519C1BF20AC7004221AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21DC51A31BF20AC7004221AC;
+			remoteInfo = OweyPlus;
+		};
+		21DC51C71BF20AC7004221AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21DC519C1BF20AC7004221AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21DC51A31BF20AC7004221AC;
+			remoteInfo = OweyPlus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2123E9A51BFF3129000445D9 /* DebtController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebtController.swift; sourceTree = "<group>"; };
+		21C8D71B1BFF3E17000FACC3 /* PersonsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonsManager.swift; sourceTree = "<group>"; };
+		21D83DCF1C038A4800071A91 /* AddDebtController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDebtController.swift; sourceTree = "<group>"; };
+		21DC51A41BF20AC7004221AC /* OweyPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OweyPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21DC51A71BF20AC7004221AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		21DC51A91BF20AC7004221AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		21DC51AC1BF20AC7004221AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21DC51B11BF20AC7004221AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21DC51B41BF20AC7004221AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21DC51B61BF20AC7004221AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21DC51BB1BF20AC7004221AC /* OweyPlusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OweyPlusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21DC51BF1BF20AC7004221AC /* OweyPlusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OweyPlusTests.swift; sourceTree = "<group>"; };
+		21DC51C11BF20AC7004221AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21DC51C61BF20AC7004221AC /* OweyPlusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OweyPlusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21DC51CA1BF20AC7004221AC /* OweyPlusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OweyPlusUITests.swift; sourceTree = "<group>"; };
+		21DC51CC1BF20AC7004221AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21DC51D81BF20DB4004221AC /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		21DC51DA1BF20DF2004221AC /* Debt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Debt.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21DC51A11BF20AC7004221AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21DC51B81BF20AC7004221AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21DC51C31BF20AC7004221AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21C8D71D1BFF4647000FACC3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				21C8D71B1BFF3E17000FACC3 /* PersonsManager.swift */,
+				21DC51D81BF20DB4004221AC /* Person.swift */,
+				21DC51DA1BF20DF2004221AC /* Debt.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		21DC519B1BF20AC7004221AC = {
+			isa = PBXGroup;
+			children = (
+				21DC51A61BF20AC7004221AC /* OweyPlus */,
+				21DC51BE1BF20AC7004221AC /* OweyPlusTests */,
+				21DC51C91BF20AC7004221AC /* OweyPlusUITests */,
+				21DC51A51BF20AC7004221AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21DC51A51BF20AC7004221AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21DC51A41BF20AC7004221AC /* OweyPlus.app */,
+				21DC51BB1BF20AC7004221AC /* OweyPlusTests.xctest */,
+				21DC51C61BF20AC7004221AC /* OweyPlusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21DC51A61BF20AC7004221AC /* OweyPlus */ = {
+			isa = PBXGroup;
+			children = (
+				21C8D71D1BFF4647000FACC3 /* Model */,
+				21DC51A71BF20AC7004221AC /* AppDelegate.swift */,
+				2123E9A51BFF3129000445D9 /* DebtController.swift */,
+				21D83DCF1C038A4800071A91 /* AddDebtController.swift */,
+				21DC51A91BF20AC7004221AC /* ViewController.swift */,
+				21DC51AB1BF20AC7004221AC /* Main.storyboard */,
+				21DC51B11BF20AC7004221AC /* Assets.xcassets */,
+				21DC51B31BF20AC7004221AC /* LaunchScreen.storyboard */,
+				21DC51B61BF20AC7004221AC /* Info.plist */,
+			);
+			path = OweyPlus;
+			sourceTree = "<group>";
+		};
+		21DC51BE1BF20AC7004221AC /* OweyPlusTests */ = {
+			isa = PBXGroup;
+			children = (
+				21DC51BF1BF20AC7004221AC /* OweyPlusTests.swift */,
+				21DC51C11BF20AC7004221AC /* Info.plist */,
+			);
+			path = OweyPlusTests;
+			sourceTree = "<group>";
+		};
+		21DC51C91BF20AC7004221AC /* OweyPlusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				21DC51CA1BF20AC7004221AC /* OweyPlusUITests.swift */,
+				21DC51CC1BF20AC7004221AC /* Info.plist */,
+			);
+			path = OweyPlusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21DC51A31BF20AC7004221AC /* OweyPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21DC51CF1BF20AC7004221AC /* Build configuration list for PBXNativeTarget "OweyPlus" */;
+			buildPhases = (
+				21DC51A01BF20AC7004221AC /* Sources */,
+				21DC51A11BF20AC7004221AC /* Frameworks */,
+				21DC51A21BF20AC7004221AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OweyPlus;
+			productName = OweyPlus;
+			productReference = 21DC51A41BF20AC7004221AC /* OweyPlus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21DC51BA1BF20AC7004221AC /* OweyPlusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21DC51D21BF20AC7004221AC /* Build configuration list for PBXNativeTarget "OweyPlusTests" */;
+			buildPhases = (
+				21DC51B71BF20AC7004221AC /* Sources */,
+				21DC51B81BF20AC7004221AC /* Frameworks */,
+				21DC51B91BF20AC7004221AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21DC51BD1BF20AC7004221AC /* PBXTargetDependency */,
+			);
+			name = OweyPlusTests;
+			productName = OweyPlusTests;
+			productReference = 21DC51BB1BF20AC7004221AC /* OweyPlusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21DC51C51BF20AC7004221AC /* OweyPlusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21DC51D51BF20AC7004221AC /* Build configuration list for PBXNativeTarget "OweyPlusUITests" */;
+			buildPhases = (
+				21DC51C21BF20AC7004221AC /* Sources */,
+				21DC51C31BF20AC7004221AC /* Frameworks */,
+				21DC51C41BF20AC7004221AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21DC51C81BF20AC7004221AC /* PBXTargetDependency */,
+			);
+			name = OweyPlusUITests;
+			productName = OweyPlusUITests;
+			productReference = 21DC51C61BF20AC7004221AC /* OweyPlusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21DC519C1BF20AC7004221AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Application Project Center";
+				TargetAttributes = {
+					21DC51A31BF20AC7004221AC = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					21DC51BA1BF20AC7004221AC = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 21DC51A31BF20AC7004221AC;
+					};
+					21DC51C51BF20AC7004221AC = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 21DC51A31BF20AC7004221AC;
+					};
+				};
+			};
+			buildConfigurationList = 21DC519F1BF20AC7004221AC /* Build configuration list for PBXProject "OweyPlus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21DC519B1BF20AC7004221AC;
+			productRefGroup = 21DC51A51BF20AC7004221AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21DC51A31BF20AC7004221AC /* OweyPlus */,
+				21DC51BA1BF20AC7004221AC /* OweyPlusTests */,
+				21DC51C51BF20AC7004221AC /* OweyPlusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21DC51A21BF20AC7004221AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21DC51B51BF20AC7004221AC /* LaunchScreen.storyboard in Resources */,
+				21DC51B21BF20AC7004221AC /* Assets.xcassets in Resources */,
+				21DC51AD1BF20AC7004221AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21DC51B91BF20AC7004221AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21DC51C41BF20AC7004221AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21DC51A01BF20AC7004221AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21C8D71C1BFF3E17000FACC3 /* PersonsManager.swift in Sources */,
+				21DC51DB1BF20DF2004221AC /* Debt.swift in Sources */,
+				21DC51D91BF20DB4004221AC /* Person.swift in Sources */,
+				21DC51AA1BF20AC7004221AC /* ViewController.swift in Sources */,
+				21D83DD01C038A4800071A91 /* AddDebtController.swift in Sources */,
+				2123E9A61BFF3129000445D9 /* DebtController.swift in Sources */,
+				21DC51A81BF20AC7004221AC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21DC51B71BF20AC7004221AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21DC51C01BF20AC7004221AC /* OweyPlusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21DC51C21BF20AC7004221AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21DC51CB1BF20AC7004221AC /* OweyPlusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21DC51BD1BF20AC7004221AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21DC51A31BF20AC7004221AC /* OweyPlus */;
+			targetProxy = 21DC51BC1BF20AC7004221AC /* PBXContainerItemProxy */;
+		};
+		21DC51C81BF20AC7004221AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21DC51A31BF20AC7004221AC /* OweyPlus */;
+			targetProxy = 21DC51C71BF20AC7004221AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21DC51AB1BF20AC7004221AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21DC51AC1BF20AC7004221AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21DC51B31BF20AC7004221AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21DC51B41BF20AC7004221AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21DC51CD1BF20AC7004221AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21DC51CE1BF20AC7004221AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21DC51D01BF20AC7004221AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OweyPlus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = at.appc.OweyPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		21DC51D11BF20AC7004221AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OweyPlus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = at.appc.OweyPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		21DC51D31BF20AC7004221AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OweyPlusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = at.appc.OweyPlusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OweyPlus.app/OweyPlus";
+			};
+			name = Debug;
+		};
+		21DC51D41BF20AC7004221AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OweyPlusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = at.appc.OweyPlusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OweyPlus.app/OweyPlus";
+			};
+			name = Release;
+		};
+		21DC51D61BF20AC7004221AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OweyPlusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = at.appc.OweyPlusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OweyPlus;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		21DC51D71BF20AC7004221AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OweyPlusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = at.appc.OweyPlusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OweyPlus;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21DC519F1BF20AC7004221AC /* Build configuration list for PBXProject "OweyPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21DC51CD1BF20AC7004221AC /* Debug */,
+				21DC51CE1BF20AC7004221AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21DC51CF1BF20AC7004221AC /* Build configuration list for PBXNativeTarget "OweyPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21DC51D01BF20AC7004221AC /* Debug */,
+				21DC51D11BF20AC7004221AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21DC51D21BF20AC7004221AC /* Build configuration list for PBXNativeTarget "OweyPlusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21DC51D31BF20AC7004221AC /* Debug */,
+				21DC51D41BF20AC7004221AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21DC51D51BF20AC7004221AC /* Build configuration list for PBXNativeTarget "OweyPlusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21DC51D61BF20AC7004221AC /* Debug */,
+				21DC51D71BF20AC7004221AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21DC519C1BF20AC7004221AC /* Project object */;
+}
